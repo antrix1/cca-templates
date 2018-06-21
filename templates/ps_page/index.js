@@ -1,7 +1,7 @@
-import React, { Component } from "react";
-import PropTypes from "prop-types";
+import React, { Component } from 'react';
+import PropTypes from 'prop-types';
 
-class COMPONENT_NAME extends Component {
+class COMPONENT_NAMEPage extends Component {
   static propTypes = {};
   static defaultProps = {};
 
@@ -14,4 +14,4 @@ class COMPONENT_NAME extends Component {
   }
 }
 
-export default COMPONENT_NAME;
+export default COMPONENT_NAMEPage;

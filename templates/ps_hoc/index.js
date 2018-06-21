@@ -1,7 +1,7 @@
-import React, { Component } from "react";
+import React, { Component } from 'react';
 
 function getDisplayName(WrappedComponent) {
-  return WrappedComponent.displayName || WrappedComponent.name || "Component";
+  return WrappedComponent.displayName || WrappedComponent.name || 'Component';
 }
 
 function COMPONENT_NAME(WrappedComponent) {
@@ -16,6 +16,7 @@ function COMPONENT_NAME(WrappedComponent) {
   }
 
   Wrapper.displayName = `COMPONENT_NAME(${getDisplayName(WrappedComponent)})`;
+
   return Wrapper;
 }
 
